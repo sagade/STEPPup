@@ -2,8 +2,12 @@ Package: STEPPup
 Title: 
 Description: 
 Version: 0.1
-Authors@R: # getOptions('devtools.desc.author')
-Depends: R (>= 3.0.1)
+Author: Stephan Gade <stephan.gade@germanbreastgroup.de
+Depends:
+    R (>= 3.0.1)
 License: # getOptions('devtools.desc.license')
 LazyData: true
-Maintainer: 'Stephan Gade' <stephan.gade@germanbreastgroup.de
+Maintainer: Stephan Gade <stephan.gade@germanbreastgroup.de>
+Collate:
+    'STEPPup-package.R'
+    'STEPPup.R'
