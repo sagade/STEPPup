@@ -176,7 +176,7 @@ OptimalCutPoint <- function(response, var, treat, covars=NULL, data, num.cuts=10
     if (num.cuts >= length(num.uni)) {
         cuts <- num.uni[-1]
     } else { 
-        cuts <- seq(min(data[[var]], na.rm=T), max(data[[var]], na.rm=T), length.out=(num.cuts+2))
+        cuts <- quantile(num.uni, probs=seq(0, 1, length.out=(num.cuts+2)))
         cuts <- cuts[-c(1, length(cuts))]
     }   
 
