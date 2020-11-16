@@ -1,0 +1,5 @@
+S3method(plot,STEPP)
+export(OptimalCutPoint)
+export(STEPP)
+import(parallel)
+import(survival)

@@ -8,6 +8,3 @@ Depends:
 License: # getOptions('devtools.desc.license')
 LazyData: true
 Maintainer: Stephan Gade <stephan.gade@germanbreastgroup.de>
-Collate:
-    'STEPPup-package.R'
-    'STEPPup.R'
